@@ -72,7 +72,7 @@ public class CruddemoApplication {
 	}
 
 	private void createStudent(StudentDAO studentDAO) {
-		Student student = new Student("nila","krita","seema@gamil.com");
+		Student student = new Student("nila","krita","nila@gamil.com");
 		studentDAO.save(student);
 		System.out.println("saved student "+student.getId());
 	}
