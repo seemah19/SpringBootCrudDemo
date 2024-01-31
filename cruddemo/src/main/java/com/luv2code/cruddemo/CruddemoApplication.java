@@ -80,11 +80,11 @@ public class CruddemoApplication {
 	}
 
 	private void createStudent(StudentDAO studentDAO) {
-<<<<<<< HEAD
+
 		Student student = new Student("laxmi","hebballi","laxmi@gamil.com");
-=======
-		Student student = new Student("nila","krita","nila@gamil.com");
->>>>>>> 7a2d4e395c06a4b754504877d71a91b429294306
+
+		Student student1 = new Student("nila","krita","nila@gamil.com");
+
 		studentDAO.save(student);
 		System.out.println("saved student "+student.getId());
 	}
